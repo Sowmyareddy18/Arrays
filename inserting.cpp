@@ -5,15 +5,15 @@ int main()
 	int size,n,ele,pos,i;
 	cout<<"enter the size of array,number of elements";
 	cin>>size>>n;
-	if(size==n)
-	{
-		cout<<"array is filled";
-		return 0;
-	}
 	int arr[size];
 	for(i=0;i<n;i++)
 	{
 		cin>>arr[i];
+	}
+	if(size==n)
+	{
+		cout<<"array is filled";
+		return 0;
 	}
 	cout<<"enter the element to be inserted";
 	cin>>ele;
